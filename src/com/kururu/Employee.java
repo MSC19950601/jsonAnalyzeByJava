@@ -14,4 +14,49 @@ public class Employee {
 
     public Employee(){
     }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    public void setSkills(Vector<String> skills) {
+        this.skills = skills;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getPosition() {
+        return position;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public Vector<String> getSkills() {
+        return skills;
+    }
+
+    @Override
+    public String toString() {
+        return "The employee: name" + name + "age :" + age + "position :" + position + "salary : " + salary;
+    }
 }
