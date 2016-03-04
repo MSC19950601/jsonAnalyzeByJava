@@ -19,6 +19,8 @@ public class ReadJsonFile {
             }
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
+            e.printStackTrace();
+
         } finally {
             if (scanner != null) {
                 scanner.close();

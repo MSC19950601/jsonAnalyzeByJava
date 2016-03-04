@@ -5,3 +5,10 @@
   "salary" : 7500,
   "skills" : [ "java", "python" ]
 }
+{
+  "name" : "kururu",
+  "age" : 23,
+  "position" : "fresher",
+  "salary" : 4500,
+  "skills": [ "cpp", "java"]
+}
