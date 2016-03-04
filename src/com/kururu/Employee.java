@@ -1,5 +1,6 @@
 package com.kururu;
 
+import java.util.List;
 import java.util.Vector;
 
 /**
@@ -10,7 +11,7 @@ public class Employee {
     private int age;
     private String position;
     private int salary;
-    private Vector<String> skills;
+    private List<String> skills;
 
     public Employee(){
     }
@@ -31,7 +32,7 @@ public class Employee {
         this.salary = salary;
     }
 
-    public void setSkills(Vector<String> skills) {
+    public void setSkills(List<String> skills) {
         this.skills = skills;
     }
 
@@ -51,12 +52,12 @@ public class Employee {
         return salary;
     }
 
-    public Vector<String> getSkills() {
+    public List<String> getSkills() {
         return skills;
     }
 
     @Override
     public String toString() {
-        return "The employee: name" + name + "age :" + age + "position :" + position + "salary : " + salary;
+        return "The employee: name" + name + "age :" + age + "position :" + position + "salary : " + salary + "skills ：" + skills.toString();
     }
 }

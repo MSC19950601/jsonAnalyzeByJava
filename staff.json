@@ -1,14 +1,26 @@
 {
-  "name" : "mkyong",
-  "age" : 33,
-  "position" : "Developer",
-  "salary" : 7500,
-  "skills" : [ "java", "python" ]
-}
-{
-  "name" : "kururu",
-  "age" : 23,
-  "position" : "fresher",
-  "salary" : 4500,
-  "skills": [ "cpp", "java"]
+  "message":
+  [
+    {
+      "name":"mkyong",
+      "age":33,
+      "position":"Developer",
+      "salary":7500,
+      "skills":["java","python"]
+    },
+    {
+      "name":"kururu",
+      "age":23,
+      "position":"Fresher",
+      "salary":3500,
+      "skills":["java","cpp"]
+    },
+    {
+      "name":"kururu2",
+      "age":233,
+      "position":"Fresher2",
+      "salary":35000,
+      "skills":["java","c_sharp"]
+    }
+  ]
 }
