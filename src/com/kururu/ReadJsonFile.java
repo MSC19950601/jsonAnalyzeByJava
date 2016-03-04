@@ -7,6 +7,7 @@ import java.util.Scanner;
 /**
  * Created by Ellery Queen on 2016/3/4.
  */
+
 public class ReadJsonFile {
     public static String ReadJsonFile(String jsonFilePath){
         File file = new File(jsonFilePath);
