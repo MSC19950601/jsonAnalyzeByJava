@@ -26,4 +26,16 @@ public class AnalyzeJson {
             System.out.println("\n");
         }
     }
+    //use function in ReadJsonFile.java ReadJsonFile()
+    public static void AnalyzeJsonT(String jsonStr){
+        JSONObject jsonObject = JSONObject.fromObject(jsonStr);
+        JSONArray jsonArray = jsonObject.getJSONArray(null);
+
+        Iterator iterator = jsonArray.iterator();
+        while(iterator.hasNext()){
+            JSONObject object = (JSONObject)iterator.next();
+            System.out.println(object.getString(null));
+            System.out.println("\n");
+        }
+    }
 }

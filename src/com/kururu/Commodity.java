@@ -9,6 +9,8 @@ public class Commodity {
     private String itemId;
     private boolean isWeigh;
     private double unitPrice;
+    private int number;
+    private double totalPrice;
 
     public Commodity(){}
     public Commodity(Item item){
