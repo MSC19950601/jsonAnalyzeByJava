@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cc04421-d6c6-4edf-95b7-4825f4936452" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kururu/parse/Parser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kururu/parse/bulkParser.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jsonParseByJava/com/kururu/AnalyzeJson.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jsonParseByJava/com/kururu/Commodity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jsonParseByJava/com/kururu/Employee.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jsonParseByJava/com/kururu/Item.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/jsonParseByJava/com/kururu/ReadJsonFile.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/jsonParseByJava/com/kururu/Main.class" afterPath="$PROJECT_DIR$/out/production/jsonParseByJava/com/kururu/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kururu/parser/Parser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kururu/product/NewItem.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/kururu/parse/AnalyzeJson.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/kururu/parse/Parser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/kururu/parse/bulkParser.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kururu/Main.java" afterPath="$PROJECT_DIR$/src/com/kururu/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/smallTicket.json" afterPath="$PROJECT_DIR$/test/smallTicket.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/kururu/AnalyzeJson.java" afterPath="$PROJECT_DIR$/src/com/kururu/parse/AnalyzeJson.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/kururu/Commodity.java" afterPath="$PROJECT_DIR$/src/com/kururu/product/Commodity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/kururu/Employee.java" afterPath="$PROJECT_DIR$/src/com/kururu/product/Employee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/kururu/Item.java" afterPath="$PROJECT_DIR$/src/com/kururu/product/Item.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/kururu/ReadJsonFile.java" afterPath="$PROJECT_DIR$/src/com/kururu/readJson/ReadJsonFile.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/staff.json" afterPath="$PROJECT_DIR$/test/staff.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ticket2.json" afterPath="$PROJECT_DIR$/test/ticket2.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kururu/readJson/ReadJsonFile.java" afterPath="$PROJECT_DIR$/src/com/kururu/readJson/ReadJsonFile.java" />
     </list>
     <ignored path="jsonParseByJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,23 +32,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="AnalyzeJson.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kururu/parse/AnalyzeJson.java">
+      <file leaf-file-name="NewItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kururu/product/NewItem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadJsonFile.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/kururu/parser/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.524735">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadJsonFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kururu/readJson/ReadJsonFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14134276">
-              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#ReadJsonFile#0;class#ReadJsonFile#0" expanded="false" />
@@ -67,6 +65,7 @@
                 <element signature="method#ChangeTheStyleOfNonBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
                 <element signature="method#PatternBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
                 <element signature="method#listAdd#0;class#ReadJsonFile#0" expanded="false" />
+                <element signature="method#ReadAndRestructureData#0;class#ReadJsonFile#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -76,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/kururu/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/com/kururu/parse/bulkParser.java" />
         <option value="$PROJECT_DIR$/src/com/kururu/readJson/ReadJsonFile.java" />
         <option value="$PROJECT_DIR$/src/com/kururu/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/kururu/parser/Parser.java" />
       </list>
     </option>
   </component>
@@ -295,7 +295,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="parse" />
+              <option name="myItemId" value="parser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -982,12 +982,12 @@
       <workItem from="1457138407358" duration="13453000" />
       <workItem from="1457179570259" duration="12000" />
       <workItem from="1457182549076" duration="9035000" />
-      <workItem from="1457227445139" duration="12160000" />
+      <workItem from="1457227445139" duration="13908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51443000" />
+    <option name="totallyTimeSpent" value="53191000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1051,16 +1051,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/kururu/parse/AnalyzeJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kururu/product/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1099,16 +1089,7 @@
             <element signature="method#ChangeTheStyleOfNonBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
             <element signature="method#PatternBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
             <element signature="method#listAdd#0;class#ReadJsonFile#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kururu/parse/AnalyzeJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#ReadAndRestructureData#0;class#ReadJsonFile#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1151,16 +1132,7 @@
             <element signature="method#ChangeTheStyleOfNonBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
             <element signature="method#PatternBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
             <element signature="method#listAdd#0;class#ReadJsonFile#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kururu/parse/AnalyzeJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#ReadAndRestructureData#0;class#ReadJsonFile#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1203,16 +1175,7 @@
             <element signature="method#ChangeTheStyleOfNonBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
             <element signature="method#PatternBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
             <element signature="method#listAdd#0;class#ReadJsonFile#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kururu/parse/AnalyzeJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#ReadAndRestructureData#0;class#ReadJsonFile#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1262,6 +1225,7 @@
             <element signature="method#ChangeTheStyleOfNonBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
             <element signature="method#PatternBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
             <element signature="method#listAdd#0;class#ReadJsonFile#0" expanded="false" />
+            <element signature="method#ReadAndRestructureData#0;class#ReadJsonFile#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1286,6 +1250,7 @@
             <element signature="method#ChangeTheStyleOfNonBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
             <element signature="method#PatternBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
             <element signature="method#listAdd#0;class#ReadJsonFile#0" expanded="false" />
+            <element signature="method#ReadAndRestructureData#0;class#ReadJsonFile#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1324,6 +1289,7 @@
             <element signature="method#ChangeTheStyleOfNonBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
             <element signature="method#PatternBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
             <element signature="method#listAdd#0;class#ReadJsonFile#0" expanded="false" />
+            <element signature="method#ReadAndRestructureData#0;class#ReadJsonFile#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1348,6 +1314,7 @@
             <element signature="method#ChangeTheStyleOfNonBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
             <element signature="method#PatternBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
             <element signature="method#listAdd#0;class#ReadJsonFile#0" expanded="false" />
+            <element signature="method#ReadAndRestructureData#0;class#ReadJsonFile#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1406,16 +1373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kururu/parse/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kururu/product/Commodity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1426,40 +1383,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kururu/parse/AnalyzeJson.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kururu/product/NewItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kururu/parse/bulkParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5706714">
-          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kururu/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kururu/readJson/ReadJsonFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14134276">
-          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#ReadJsonFile#0;class#ReadJsonFile#0" expanded="false" />
@@ -1468,7 +1403,26 @@
             <element signature="method#ChangeTheStyleOfNonBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
             <element signature="method#PatternBulkGoods#0;class#ReadJsonFile#0" expanded="false" />
             <element signature="method#listAdd#0;class#ReadJsonFile#0" expanded="false" />
+            <element signature="method#ReadAndRestructureData#0;class#ReadJsonFile#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kururu/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kururu/parser/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.524735">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

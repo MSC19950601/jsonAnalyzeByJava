@@ -1,11 +1,7 @@
 package com.kururu;
 
-import com.kururu.parse.AnalyzeJson;
-import com.kururu.parse.Parser;
-import com.kururu.parse.bulkParser;
 import com.kururu.readJson.ReadJsonFile;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {

@@ -99,6 +99,7 @@ public class ReadJsonFile {
         return res;
     }
 
+    //add list a & b
     private static List<String> listAdd(List<String> a, List<String> b){
         if(a.addAll(b)){
             return a;
