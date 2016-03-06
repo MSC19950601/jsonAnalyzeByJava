@@ -1,4 +1,4 @@
-package com.kururu;
+package com.kururu.parse;
 
 
 import net.sf.json.JSONArray;

@@ -1,4 +1,4 @@
-package com.kururu;
+package com.kururu.product;
 
 /**
  * Created by Ellery Queen on 2016/3/4.
@@ -13,12 +13,14 @@ public class Commodity {
     private double totalPrice;
 
     public Commodity(){}
+
     public Commodity(Item item){
         this.itemName = item.getItemName();
         this.itemId = item.toString();
         this.isWeigh = item.isWeigh();
         this.unitPrice = item.getUnitPrice();
     }
+
 
     public String getItemId() {
         return itemId;

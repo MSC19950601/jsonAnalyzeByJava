@@ -1,4 +1,4 @@
-package com.kururu;
+package com.kururu.product;
 
 import java.util.List;
 import java.util.Vector;
